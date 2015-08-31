@@ -1,0 +1,10 @@
+{
+  "name": "foundation-libsass-template",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation",
+    "compass-mixins": "~1.0.2",
+    "lazyloadxt": "~1.0.5",
+    "fontawesome": "~4.4.0",
+    "bower-shuffle": "~2.0.5"
+  }
+}
