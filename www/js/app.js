@@ -4,9 +4,10 @@ jQuery(function($) {
 
   var $grid = $('#grid'),
     $sizer = $grid.find('.shuffle__sizer');
-
-  $grid.shuffle({
-    itemSelector: '.columns',
-    sizer: $sizer
-  });
+  setTimeout(function() {
+    $grid.shuffle({
+      itemSelector: '.columns',
+      sizer: $sizer
+    });
+  }, 100);
 });
